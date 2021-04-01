@@ -15,6 +15,8 @@
 		FD9D465C260E9B6A004928A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D4631260E9B68004928A9 /* ContentView.swift */; };
 		FD9D465D260E9B6A004928A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9D4632260E9B6A004928A9 /* Assets.xcassets */; };
 		FD9D465E260E9B6A004928A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9D4632260E9B6A004928A9 /* Assets.xcassets */; };
+		FD9D470526124364004928A9 /* ThundiBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D470426124364004928A9 /* ThundiBlue.swift */; };
+		FD9D470626124364004928A9 /* ThundiBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D470426124364004928A9 /* ThundiBlue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		FD9D4652260E9B6A004928A9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9D4656260E9B6A004928A9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FD9D4658260E9B6A004928A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9D470426124364004928A9 /* ThundiBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThundiBlue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				FD9D4630260E9B68004928A9 /* ThundipiControllerApp.swift */,
 				FD9D4631260E9B68004928A9 /* ContentView.swift */,
 				FD9D4632260E9B6A004928A9 /* Assets.xcassets */,
+				FD9D470426124364004928A9 /* ThundiBlue.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9D465B260E9B6A004928A9 /* ContentView.swift in Sources */,
+				FD9D470526124364004928A9 /* ThundiBlue.swift in Sources */,
 				FD9D4659260E9B6A004928A9 /* ThundipiControllerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9D465C260E9B6A004928A9 /* ContentView.swift in Sources */,
+				FD9D470626124364004928A9 /* ThundiBlue.swift in Sources */,
 				FD9D465A260E9B6A004928A9 /* ThundipiControllerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFC7QRPM2Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,6 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFC7QRPM2Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct ThundipiControllerApp: App {
+    private lazy var bluetoothManager = CoreBluetoothManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+    
+    init() {
+        print("hello");
+    }
 }
+
+
